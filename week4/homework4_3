@@ -15,15 +15,15 @@
     <thead>
       <tr><th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th> </tr></thead>
     <tbody>
-      <tr><td>1교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>2교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>3교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>4교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>5교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>5교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>6교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>7교시</td><td></td><td></td><td></td><td></td><td></td>
-      <tr><td>8교시</td><td></td><td></td><td></td><td></td><td></td>
+      <tr><td>1교시</td><td></td><td></td><td></td><td rowspan="3">데이터과학의 이해와 활용</td></tr>
+      <tr><td>2교시</td><td></td><td></td><td></td></tr>
+      <tr><td>3교시</td><td></td><td></td><td></td></tr>
+      <tr><td>4교시</td><td></td><td rowspan="3">현대사회와대중문화</td><td></td><td rowspan="2">빅데이터 IT 어드벤쳐</td></tr>
+      <tr><td>5교시</td><td rowspan="4">C++프로그래밍</td><td></td></tr>
+      <tr><td>6교시</td><td></td><td>캠퍼스멘토링</td></tr>
+      <tr><td>7교시</td><td></td><td rowspan="2">인터넷응용</td><td></td></tr>
+      <tr><td>8교시</td><td></td><td></td><td></td></tr>
+      <tr><td>9교시</td><td>인터넷응용</td><td></td><td></td><td></td></tr>
     </talbe>
   </body>
 </html>
