@@ -4,7 +4,7 @@
   <head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
     <style>table,thead,tbody,tfoot,tr,th,td{
       border:2px solid black; border-collapse:collapse;text-align: center;}
-      .subject1{ background-color:lightgray; } .subject2{ background-color:#FAF4C0; }
+      .subject1{ background-color:lightgray; } .subject2{ background-color:DarkOrchid; } .subject3{ background-color:Brown; } .subject4{ background-color:Cyan; } .subject5{ background-color:Coral; } .subject6{ background-color:Green; }
       th,td{ width:5-px;}
     </style>
     <title>HTML5 시간표</title>
@@ -15,15 +15,15 @@
     <thead>
       <tr><th>시간</th> <th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th> </tr></thead>
     <tbody>
-      <tr><td>1교시</td><td></td><td></td><td></td><td rowspan="3">데이터과학의 이해와 활용</td></tr>
+      <tr><td>1교시</td><td></td><td></td><td></td><td rowspan="3" class="subject1">데이터과학의 이해와 활용</td></tr>
       <tr><td>2교시</td><td></td><td></td><td></td></tr>
       <tr><td>3교시</td><td></td><td></td><td></td></tr>
-      <tr><td>4교시</td><td></td><td rowspan="3">현대사회와대중문화</td><td></td><td rowspan="2">빅데이터 IT 어드벤쳐</td></tr>
-      <tr><td>5교시</td><td rowspan="4">C++프로그래밍</td><td></td></tr>
-      <tr><td>6교시</td><td></td><td>캠퍼스멘토링</td></tr>
-      <tr><td>7교시</td><td></td><td rowspan="2">인터넷응용</td><td></td></tr>
+      <tr><td>4교시</td><td></td><td rowspan="3" class="subject2">현대사회와대중문화</td><td></td><td rowspan="2" class="subject3">빅데이터 IT 어드벤쳐</td></tr>
+      <tr><td>5교시</td><td rowspan="4" class="subject6">C++프로그래밍</td><td></td></tr>
+      <tr><td>6교시</td><td></td><td class="subject4">캠퍼스멘토링</td></tr>
+      <tr><td>7교시</td><td></td><td rowspan="2" class="subject5">인터넷응용</td><td></td></tr>
       <tr><td>8교시</td><td></td><td></td><td></td></tr>
-      <tr><td>9교시</td><td>인터넷응용</td><td></td><td></td><td></td></tr>
+      <tr><td>9교시</td><td class="subject5">인터넷응용</td><td></td><td></td><td></td></tr>
     </talbe>
   </body>
 </html>
